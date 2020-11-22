@@ -16,6 +16,7 @@ This is a a clone of [@estevanmaito](https://github.com/estevanmaito)'s [Windmil
 - Sidebar
 - Navigation
 - Modal
+- Alert Bar
 
 ## Live Versions
 
@@ -32,3 +33,4 @@ All credit goes to Estevan Maito for building the original Dashboard, I simply p
 - Show Modal on Click
 - Show Sidebar on Navigation button click (mobile)
 - Add Chartsjs
+- Add Additional pages (Login, Create Account, Forgot Passowrd, 404 and Blank)
