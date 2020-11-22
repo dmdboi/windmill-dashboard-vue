@@ -1,24 +1,22 @@
-# windmill-ui
+# Windmill Dashboard Vue (WIP)
 
-## Project setup
-```
-npm install
-```
+This is a a replica of @estevanmaito's [Windmill Dashboard](https://github.com/estevanmaito/windmill-dashboard) but built with VueJS and Tailwind 2.0
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## Pages
 
-### Compiles and minifies for production
-```
-npm run build
-```
+Index
 
-### Lints and fixes files
-```
-npm run lint
-```
+## Components
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Sidebar
+Navigation
+
+## Live Versions
+
+Estavan's [Live Version](https://windmillui.com/dashboard-html)
+
+My Vue [Live Version](https://vue-windmill-dashboard.netlify.app/)
+
+## Credit
+
+All credit goes to Estavan Maito for building the original Dashboard, I simply ported across to Vue 😀
