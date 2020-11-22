@@ -4,17 +4,17 @@
       class="z-20 flex-shrink-0 hidden w-64 overflow-y-auto bg-white dark:bg-gray-800 md:block h-full"
     >
       <div class="py-4 text-gray-500 dark:text-gray-400">
-        <a
+        <router-link
           class="ml-6 text-lg font-bold text-gray-800 dark:text-gray-200"
-          href="#"
+          to="/"
         >
           Windmill
-        </a>
+        </router-link>
         <ul class="mt-6">
           <li class="relative px-6 py-3">
-            <a
+            <router-link
               class="inline-flex items-center w-full text-sm font-semibold transition-colors duration-150 hover:text-gray-800 dark:hover:text-gray-200"
-              href="index.html"
+              to="/"
             >
               <svg
                 class="w-5 h-5"
@@ -31,14 +31,14 @@
                 ></path>
               </svg>
               <span class="ml-4">Dashboard</span>
-            </a>
+            </router-link>
           </li>
         </ul>
         <ul>
           <li class="relative px-6 py-3">
-            <a
+            <router-link
               class="inline-flex items-center w-full text-sm font-semibold transition-colors duration-150 hover:text-gray-800 dark:hover:text-gray-200"
-              href="forms.html"
+              to="/forms"
             >
               <svg
                 class="w-5 h-5"
@@ -55,12 +55,12 @@
                 ></path>
               </svg>
               <span class="ml-4">Forms</span>
-            </a>
+            </router-link>
           </li>
           <li class="relative px-6 py-3">
-            <a
+            <router-link
               class="inline-flex items-center w-full text-sm font-semibold transition-colors duration-150 hover:text-gray-800 dark:hover:text-gray-200"
-              href="cards.html"
+              to="/cards"
             >
               <svg
                 class="w-5 h-5"
@@ -77,12 +77,12 @@
                 ></path>
               </svg>
               <span class="ml-4">Cards</span>
-            </a>
+            </router-link>
           </li>
           <li class="relative px-6 py-3">
-            <a
+            <router-link
               class="inline-flex items-center w-full text-sm font-semibold transition-colors duration-150 hover:text-gray-800 dark:hover:text-gray-200"
-              href="charts.html"
+              to="/charts"
             >
               <svg
                 class="w-5 h-5"
@@ -98,12 +98,12 @@
                 <path d="M20.488 9H15V3.512A9.025 9.025 0 0120.488 9z"></path>
               </svg>
               <span class="ml-4">Charts</span>
-            </a>
+            </router-link>
           </li>
           <li class="relative px-6 py-3">
-            <a
+            <router-link
               class="inline-flex items-center w-full text-sm font-semibold transition-colors duration-150 hover:text-gray-800 dark:hover:text-gray-200"
-              href="buttons.html"
+              to="/buttons"
             >
               <svg
                 class="w-5 h-5"
@@ -120,12 +120,12 @@
                 ></path>
               </svg>
               <span class="ml-4">Buttons</span>
-            </a>
+            </router-link>
           </li>
           <li class="relative px-6 py-3">
-            <a
+            <router-link
               class="inline-flex items-center w-full text-sm font-semibold transition-colors duration-150 hover:text-gray-800 dark:hover:text-gray-200"
-              href="modals.html"
+              to="/modals"
             >
               <svg
                 class="w-5 h-5"
@@ -142,16 +142,16 @@
                 ></path>
               </svg>
               <span class="ml-4">Modals</span>
-            </a>
+            </router-link>
           </li>
           <li class="relative px-6 py-3">
             <span
               class="absolute inset-y-0 left-0 w-1 bg-purple-600 rounded-tr-lg rounded-br-lg"
               aria-hidden="true"
             ></span>
-            <a
+            <router-link
               class="inline-flex items-center w-full text-sm font-semibold text-gray-800 transition-colors duration-150 hover:text-gray-800 dark:hover:text-gray-200 dark:text-gray-100"
-              href="tables.html"
+              to="/tables"
             >
               <svg
                 class="w-5 h-5"
@@ -166,7 +166,7 @@
                 <path d="M4 6h16M4 10h16M4 14h16M4 18h16"></path>
               </svg>
               <span class="ml-4">Tables</span>
-            </a>
+            </router-link>
           </li>
           <li class="relative px-6 py-3">
             <button
@@ -218,31 +218,31 @@
                 <li
                   class="px-2 py-1 transition-colors duration-150 hover:text-gray-800 dark:hover:text-gray-200"
                 >
-                  <a class="w-full" href="pages/login.html">Login</a>
+                  <router-link class="w-full" to="/">Login</router-link>
                 </li>
                 <li
                   class="px-2 py-1 transition-colors duration-150 hover:text-gray-800 dark:hover:text-gray-200"
                 >
-                  <a class="w-full" href="pages/create-account.html">
+                  <router-link class="w-full" to="/">
                     Create account
-                  </a>
+                  </router-link>
                 </li>
                 <li
                   class="px-2 py-1 transition-colors duration-150 hover:text-gray-800 dark:hover:text-gray-200"
                 >
-                  <a class="w-full" href="pages/forgot-password.html">
+                  <router-link class="w-full" to="/">
                     Forgot password
-                  </a>
+                  </router-link>
                 </li>
                 <li
                   class="px-2 py-1 transition-colors duration-150 hover:text-gray-800 dark:hover:text-gray-200"
                 >
-                  <a class="w-full" href="pages/404.html">404</a>
+                  <router-link class="w-full" to="/">404</router-link>
                 </li>
                 <li
                   class="px-2 py-1 transition-colors duration-150 hover:text-gray-800 dark:hover:text-gray-200"
                 >
-                  <a class="w-full" href="pages/blank.html">Blank</a>
+                  <router-link class="w-full" to="/">Blank</router-link>
                 </li>
               </ul>
             </template>
@@ -281,15 +281,15 @@
       @keydown.escape="closeSideMenu"
     >
       <div class="py-4 text-gray-500 dark:text-gray-400">
-        <a
+        <router-link
           class="ml-6 text-lg font-bold text-gray-800 dark:text-gray-200"
           href="#"
         >
           Windmill
-        </a>
+        </router-link>
         <ul class="mt-6">
           <li class="relative px-6 py-3">
-            <a
+            <router-link
               class="inline-flex items-center w-full text-sm font-semibold transition-colors duration-150 hover:text-gray-800 dark:hover:text-gray-200"
               href="index.html"
             >
@@ -308,12 +308,12 @@
                 ></path>
               </svg>
               <span class="ml-4">Dashboard</span>
-            </a>
+            </router-link>
           </li>
         </ul>
         <ul>
           <li class="relative px-6 py-3">
-            <a
+            <router-link
               class="inline-flex items-center w-full text-sm font-semibold transition-colors duration-150 hover:text-gray-800 dark:hover:text-gray-200"
               href="forms.html"
             >
@@ -332,10 +332,10 @@
                 ></path>
               </svg>
               <span class="ml-4">Forms</span>
-            </a>
+            </router-link>
           </li>
           <li class="relative px-6 py-3">
-            <a
+            <router-link
               class="inline-flex items-center w-full text-sm font-semibold transition-colors duration-150 hover:text-gray-800 dark:hover:text-gray-200"
               href="cards.html"
             >
@@ -354,10 +354,10 @@
                 ></path>
               </svg>
               <span class="ml-4">Cards</span>
-            </a>
+            </router-link>
           </li>
           <li class="relative px-6 py-3">
-            <a
+            <router-link
               class="inline-flex items-center w-full text-sm font-semibold transition-colors duration-150 hover:text-gray-800 dark:hover:text-gray-200"
               href="charts.html"
             >
@@ -375,10 +375,10 @@
                 <path d="M20.488 9H15V3.512A9.025 9.025 0 0120.488 9z"></path>
               </svg>
               <span class="ml-4">Charts</span>
-            </a>
+            </router-link>
           </li>
           <li class="relative px-6 py-3">
-            <a
+            <router-link
               class="inline-flex items-center w-full text-sm font-semibold transition-colors duration-150 hover:text-gray-800 dark:hover:text-gray-200"
               href="buttons.html"
             >
@@ -397,10 +397,10 @@
                 ></path>
               </svg>
               <span class="ml-4">Buttons</span>
-            </a>
+            </router-link>
           </li>
           <li class="relative px-6 py-3">
-            <a
+            <router-link
               class="inline-flex items-center w-full text-sm font-semibold transition-colors duration-150 hover:text-gray-800 dark:hover:text-gray-200"
               href="modals.html"
             >
@@ -419,14 +419,14 @@
                 ></path>
               </svg>
               <span class="ml-4">Modals</span>
-            </a>
+            </router-link>
           </li>
           <li class="relative px-6 py-3">
             <span
               class="absolute inset-y-0 left-0 w-1 bg-purple-600 rounded-tr-lg rounded-br-lg"
               aria-hidden="true"
             ></span>
-            <a
+            <router-link
               class="inline-flex items-center w-full text-sm font-semibold text-gray-800 transition-colors duration-150 hover:text-gray-800 dark:hover:text-gray-200 dark:text-gray-100"
               href="tables.html"
             >
@@ -443,7 +443,7 @@
                 <path d="M4 6h16M4 10h16M4 14h16M4 18h16"></path>
               </svg>
               <span class="ml-4">Tables</span>
-            </a>
+            </router-link>
           </li>
           <li class="relative px-6 py-3">
             <button
@@ -481,7 +481,7 @@
                 ></path>
               </svg>
             </button>
-            <template v-if="isPagesMenuOpen">
+            <div v-if="isPagesMenuOpen">
               <ul
                 x-transition:enter="transition-all ease-in-out duration-300"
                 x-transition:enter-start="opacity-25 max-h-0"
@@ -495,34 +495,40 @@
                 <li
                   class="px-2 py-1 transition-colors duration-150 hover:text-gray-800 dark:hover:text-gray-200"
                 >
-                  <a class="w-full" href="pages/login.html">Login</a>
+                  <router-link class="w-full" href="pages/login.html"
+                    >Login</router-link
+                  >
                 </li>
                 <li
                   class="px-2 py-1 transition-colors duration-150 hover:text-gray-800 dark:hover:text-gray-200"
                 >
-                  <a class="w-full" href="pages/create-account.html">
+                  <router-link class="w-full" href="pages/create-account.html">
                     Create account
-                  </a>
+                  </router-link>
                 </li>
                 <li
                   class="px-2 py-1 transition-colors duration-150 hover:text-gray-800 dark:hover:text-gray-200"
                 >
-                  <a class="w-full" href="pages/forgot-password.html">
+                  <router-link class="w-full" href="pages/forgot-password.html">
                     Forgot password
-                  </a>
+                  </router-link>
                 </li>
                 <li
                   class="px-2 py-1 transition-colors duration-150 hover:text-gray-800 dark:hover:text-gray-200"
                 >
-                  <a class="w-full" href="pages/404.html">404</a>
+                  <router-link class="w-full" href="pages/404.html"
+                    >404</router-link
+                  >
                 </li>
                 <li
                   class="px-2 py-1 transition-colors duration-150 hover:text-gray-800 dark:hover:text-gray-200"
                 >
-                  <a class="w-full" href="pages/blank.html">Blank</a>
+                  <router-link class="w-full" href="pages/blank.html"
+                    >Blank</router-link
+                  >
                 </li>
               </ul>
-            </template>
+            </div>
           </li>
         </ul>
         <div class="px-6 my-6">
