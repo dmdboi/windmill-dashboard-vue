@@ -1,6 +1,6 @@
 # Windmill Dashboard Vue (WIP)
 
-This is a a replica of @estevanmaito's [Windmill Dashboard](https://github.com/estevanmaito/windmill-dashboard) but built with VueJS and Tailwind 2.0
+This is a a clone of [@estavanmaito](https://github.com/estevanmaito)'s [Windmill Dashboard](https://github.com/estevanmaito/windmill-dashboard) but built with VueJS and Tailwind 2.0
 
 ## Pages
 
